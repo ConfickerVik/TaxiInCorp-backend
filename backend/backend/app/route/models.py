@@ -1,6 +1,6 @@
 import datetime
 from django.db import models
-from ..login.models import User
+from ..account.models import User
 
 
 class Route(models.Model):
